@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+header ul li
+{
+    @apply px-3 py-1;
+}
+.font-header
+{
+    font-family:'Poppins',sans-serif;
+}
+.bg-profile
+{
+    color:white;
+    background-color: black;
+    justify-content: center;
+    font-family: 'Jura',sans-serif;
+}
+.background_color_primary
+{
+    background: black;
+}
+
+.mobile_responseive_navbar
+{
+    @apply fixed top-12 left-0 bg-black w-full h-1/4 ;
+
+}
+.mobile_responseive_navbar li
+{
+    @apply w-full h-full text-center;
+}
+
+.about_me
+{
+    font-family:'Jura',sans-serif;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+.about_me h1
+{
+    
+    font-size:40px;
+    font-family:'Roboto Slab'
+}
+.border_styles
+{
+    position: relative;
+    background-color:rgb(0,0,0);
+    overflow:hidden;
+    border-radius:20px;
+}
+
+
+.borders 
+{
+    border: 2px solid coral;
+}
