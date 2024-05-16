@@ -6,13 +6,14 @@ export default function Features()
     return (
         <>
             <h1 className='text-center text-4xl text-white bg-black'>Features & Certifications</h1>
-
-        <section className="flex flex-col lg:flex-row sm:px-10 md:px-20 background_color_primary py-40" >
-
+     
+        <section className=" lg:flex-row sm:px-10 md:px-20 background_color_primary py-40" >
+        
+      <div className='flex flex-col mt-10 lg:flex-row bg-profile'>
         <div className="w-full lg:w-1/2" >
                 
-                <div className="relative flex flex-col px-5 py-10">
-                <iframe src="https://leetcard.jacoblin.cool/vickyfromtvl?theme=forest&font=Kufam"className=' sm-w-full lg:h-[400px] lg:w-[700px]'></iframe>
+                <div className="relative flex flex-col px-5 py-8">
+                <iframe src="https://leetcard.jacoblin.cool/vickyfromtvl?theme=dark&font=Poppins&ext=heatmap"className=' sm:w-full sm:h-full lg:h-[400px] lg:w-[700px]'></iframe>
                 <div className='absolute left-0 right-0 flex flex-col bottom-0 top-0 background_color_primary opacity-0 duration-500 hover:opacity-80 font-header borders'>
                     <p className='text-center text-white text-2xl'>
                         LeetCode Profile Stats
@@ -26,7 +27,7 @@ export default function Features()
 <p className='text-center text-red-400 text-1xl'><a href="https://www.leetcode.com/vickyfromtvl" target='_blank'>Verify</a></p>
                     </div>
                 </div>
-                <div className='relative flex flex-col px-5 py-10'>
+                <div className='relative flex flex-col px-5 py-8'>
                 <img src={aws} className='sm:h-full sm:w-full lg:h-[400px] lg:w-[700px] '/> 
 
                 <div className='absolute left-0 right-0 flex flex-col bottom-0 top-0 background_color_primary opacity-0 duration-500 hover:opacity-80 font-header borders'>
@@ -89,7 +90,7 @@ export default function Features()
                 </div>
             </div>
             
-                    
+            </div>     
             
         
     </section>

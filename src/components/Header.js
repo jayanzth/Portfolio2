@@ -14,7 +14,7 @@ export default function Header()
         <li><a href="#" className="hover:text-red-400">
                     Home</a></li>
                 <li><a href="#" className="hover:text-red-400">
-                    About</a></li>
+                    Feature</a></li>
                 <li><a href="#" className="hover:text-red-400">
                     Projects</a></li>
                 <li><a href="#" className="hover:text-red-400">
@@ -26,7 +26,7 @@ export default function Header()
             <li><a href="#" className="hover:text-red-400">
                     Home</a></li>
                 <li><a href="#" className="hover:text-red-400">
-                    About</a></li>
+                    Feature</a></li>
                 <li><a href="#" className="hover:text-red-400">
                     Projects</a></li>
                 <li><a href="#" className="hover:text-red-400">
